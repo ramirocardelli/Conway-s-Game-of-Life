@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="side=device-side, initial-scale=1.0">
+  <title>Conway's Game of Life</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <nav class="navbar">
+      <div>
+        <h1><a href="index.html">Conway's Game of Life</a></h1>
+      </div>
+      <div>
+        <h2><a href="rules.html">Rules</a></h2>
+      </div>
+
+    </nav>
+    <div class="container">
+      <div class="configuration">
+        <h2>Configuration</h2>
+        <label for="rows">Rows:</label>
+        <input type="text" name="rows" id="rows" value="12">
+        <label for="cols">Columns:</label>
+        <input type="text" name="cols" id="cols" value="16">
+        <label for="side">Side:</label>
+        <input type="text" name="side" id="side" value="50">
+        <label for="timeout">Period (ms):</label>
+        <input type="text" name="timeout" id="timeout" value="1000">
+        <button class="apply_button" onclick="apply()">Apply</button>
+      </div>
+      <div class="buttons">
+        <h2>Buttons</h2>
+        <button class="game_button" onclick="start()">Start</button>
+        <button class="game_button" onclick="stop()">Stop</button>
+        <button class="game_button" onclick="clear_matrix()">Clear</button>
+        <button class="game_button" onclick="next_iteration()">Next</button>
+      </div>
+      <div class="canvas" id="canvas">
+      </div>
+    </div>
+</body>
+
+</html>

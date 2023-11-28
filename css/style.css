@@ -1,0 +1,82 @@
+label{
+  font-weight: 500;
+}
+
+.row{
+  background-color: white;
+  display: flex;
+}
+
+.box{
+  width: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.active{
+  background-color: #121212;
+}
+
+.game_button{
+  padding: 1em 2em;
+  margin: 1em;
+  background-color: rgb(23, 121, 229);
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.configuration{
+  display: flex;
+  flex-direction: column;
+  background-color: #8995af;
+  padding: 2em;
+  border-radius: 10px;
+  margin: 2em;
+  width: 400px;
+}
+
+.configuration > h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.configuration > label{
+  margin: 1em 0;
+}
+
+.configuration > input {
+  padding: 1em;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  outline: none;
+}
+
+.apply_button{
+  margin-top: 2em;
+  padding: 0.5em 2em;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+
+.buttons{
+  margin: 2em;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 3em;
+}

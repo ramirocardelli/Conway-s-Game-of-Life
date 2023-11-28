@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: #F7F7F7;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+a { 
+  text-decoration: none; 
+  color:white;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7C93C3;
+  padding: 0 50px;
+  height: 100px;
+  font-weight: 300;
+}
